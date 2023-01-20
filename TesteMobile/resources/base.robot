@@ -1,16 +1,7 @@
 *** Settings ***
 Library    AppiumLibrary
-
-# {
-#   "appium:automationName": "UiAutomator2",
-#   "platformName": "Android",
-#   "appium:deviceName": "Emulator",
-#   "appium:app": "C:\\QAninja\\twp\\App\\twp.apk",
-#   "appium:udid": "emulator-5554"
-# }
-
-
 Resource    kws.robot
+
 
 *** Keywords ***
 Open Session
