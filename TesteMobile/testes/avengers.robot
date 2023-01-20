@@ -16,9 +16,9 @@ ${ARANHA}         Homem Aranha
 
 Verificar se existe o heroi "Capitão América"
     Ir para Lista
-    Selecionar heroi            ${CAPITAO}
-    ...                         ${CAPITAO}
-    ...                         Humano geneticamente modificado com soro do super soldado.  
+    Selecionar heroi    ${CAPITAO}
+    ...                 ${CAPITAO}
+    ...                 Humano geneticamente modificado com soro do super soldado.  
 
 
 Verificar se existe o heroi "Thor"
