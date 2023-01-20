@@ -2,7 +2,8 @@
 Library    AppiumLibrary
 
 
-
+*** Variables ***
+${MENU}
 
 *** Keywords ***
 
@@ -12,9 +13,9 @@ Botao começar
 
 
 Ir para menu
-    Wait Until Element Is Visible    //android.widget.ImageButton[@content-desc="Open navigation drawer"]
+    Wait Until Element Is Visible    ${MENU}
 
-    Click Element                    //android.widget.ImageButton[@content-desc="Open navigation drawer"]    
+    Click Element                    ${MENU}
     Wait Until Page Contains         Training Wheels
 
 
