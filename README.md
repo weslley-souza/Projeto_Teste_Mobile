@@ -13,10 +13,10 @@
     -d -> Para Guardar Resultados do Teste na pasta resultados
 
     -i -> Para Executar testes expecificos utilizando "TAGS" -> -i nome
-    EX : robot -d ../resultados -i "Nome"  .\Diretoriot
+    EX : robot -d ../resultados -i "Nome"  .\Diretorio
 
-    -e -> Para não executar testes com uma "TAG" especifica ->  -e email
-    EX : robot -d ../resultados -e "Nome"  .\Diretoriot
+    -e -> Para não executar testes com uma "TAG" especifica ->  -e nome
+    EX : robot -d ../resultados -e "Nome"  .\Diretorio
 
     -t -> Para Executar somente um teste de uma suite
-    EX : robot -t nome_teste_case -d ../resultados -i nome  .\Diretoriot
+    EX : robot -t nome_teste_case -d ../resultados -i nome  .\Diretorio
